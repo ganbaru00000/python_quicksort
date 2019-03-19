@@ -78,9 +78,9 @@ if __name__ == '__main__':
     _quicksort(sortlist)
     sortlist = create_testdata(sortlist,10000)
     _quicksort(sortlist)
-    sortlist = create_testdata(sortlist,10000)
-    _quicksort(sortlist)
     sortlist = create_testdata(sortlist,100000)
+    _quicksort(sortlist)
+    sortlist = create_testdata(sortlist,1000000)
     _quicksort(sortlist)
 
     
