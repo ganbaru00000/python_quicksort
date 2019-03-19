@@ -48,7 +48,7 @@ def create_testdata(s_list,_s_len):
     #Test data range
     rMin = 0
     rMax = 1000
-    #Create data for sorting
+    #Create test data
     for i in range(s_len):
         s_list.append(random.randint(rMin,rMax))
 
@@ -60,11 +60,11 @@ def _quicksort(sL):
 
     start = time.time()
 
-    #Create Pivot
     left = 0
     right = len(sL) - 1
 
     quicksort(sL,left,right)
+
     #print('After sorting : ' + ','.join(map(str,sL)))
 
     elapsed_time = time.time() - start
